@@ -89,8 +89,8 @@ rm -rf $RPM_BUILD_ROOT%{_includedir}/%{name}-1/gsf-win32
 %clean
 rm -rf $RPM_BUILD_ROOT
 
-%post   -p /sbin/ldconfig
-%postun -p /sbin/ldconfig
+%post   -p /usr/sbin/ldconfig
+%postun -p /usr/sbin/ldconfig
 
 %files -f %{name}.lang
 %defattr(644,root,root,755)
