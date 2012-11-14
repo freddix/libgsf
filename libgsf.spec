@@ -1,11 +1,11 @@
 Summary:	GNOME Structured File library
 Name:		libgsf
-Version:	1.14.24
+Version:	1.14.25
 Release:	1
 License:	GPL v2
 Group:		Libraries
 Source0:	http://ftp.gnome.org/pub/gnome/sources/libgsf/1.14/%{name}-%{version}.tar.xz
-# Source0-md5:	2dd29e9d2bb22a6dfe55761188636c5d
+# Source0-md5:	a66a2c6fc327bc62bebe3f988c4f45f3
 Patch0:		%{name}-no_gconf_macros.patch
 URL:		http://www.gnumeric.org/
 BuildRequires:	autoconf
